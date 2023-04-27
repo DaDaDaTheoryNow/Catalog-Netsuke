@@ -23,8 +23,7 @@ class NetsukeConstructor extends StatelessWidget {
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image:
-                AssetImage("assets/images/background.jpg"), // ваше изображение
+            image: AssetImage("assets/images/background.jpg"),
             fit: BoxFit.cover,
           ),
         ),
