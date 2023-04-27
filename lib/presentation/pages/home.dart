@@ -127,7 +127,23 @@ class HomePage extends StatelessWidget {
                   ),
                 );
               },
-            )
+            ),
+
+            // author
+            SliverToBoxAdapter(
+              child: Container(
+                margin: const EdgeInsets.only(top: 10),
+                child: const Text(
+                  "All made by Vladislav Smirnov - 7V",
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontSize: 16,
+                    color: Colors.grey,
+                    fontStyle: FontStyle.italic,
+                  ),
+                ),
+              ),
+            ),
           ],
         ),
       ),

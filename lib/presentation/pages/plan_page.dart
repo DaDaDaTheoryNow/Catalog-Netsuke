@@ -20,8 +20,8 @@ class PlanPage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: const Text(
-          "План",
-          style: TextStyle(fontSize: 25),
+          "План - Владислав Смирнов",
+          style: TextStyle(fontSize: 25, fontFamily: "Lobster"),
         ),
         backgroundColor: Colors.black12,
       ),
@@ -120,7 +120,7 @@ class PlanPage extends StatelessWidget {
                                         textAlign: TextAlign.center,
                                         style: fontStyle),
                                     Text(
-                                        "● Разнообразие форм и тематик, например: животные, человеческие фигуры, мифологические существа",
+                                        "● Разнообразие нэцкэ, например: животные, человеческие фигуры, мифологические существа",
                                         textAlign: TextAlign.center,
                                         style: fontStyle),
                                   ],
