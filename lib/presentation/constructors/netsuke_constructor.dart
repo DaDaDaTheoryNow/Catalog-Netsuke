@@ -12,19 +12,13 @@ class NetsukeConstructor extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       extendBodyBehindAppBar: true,
-      appBar: PreferredSize(
-        preferredSize: AppBar().preferredSize,
-        child: Hero(
-          tag: "plan",
-          child: AppBar(
-            centerTitle: true,
-            title: Text(
-              title,
-              style: const TextStyle(fontSize: 25, fontFamily: "Lobster"),
-            ),
-            backgroundColor: Colors.black12,
-          ),
+      appBar: AppBar(
+        centerTitle: true,
+        title: Text(
+          title,
+          style: const TextStyle(fontSize: 25, fontFamily: "Lobster"),
         ),
+        backgroundColor: Colors.black12,
       ),
       body: Container(
         decoration: const BoxDecoration(
